@@ -3,7 +3,7 @@ Console.WriteLine("Enter your name: ");
 string name = Console.ReadLine();
 
 //Input two numbers
-Console.WriteLine($"Hello {name}\nEnter two numbers with one space");
+Console.WriteLine($"Hello, {name}\nEnter two numbers with one space");
 string[] input = Console.ReadLine().Split();
 
 //Create two variables with input numbers
